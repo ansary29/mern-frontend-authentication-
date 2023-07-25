@@ -18,7 +18,7 @@ function Main() {
       return alert("Please fill all the fields !")
     }
     try {
-      const response = await axios.post("https://mern-login-register-profile.herokuapp.com/profile", {
+      const response = await axios.post("https://loginsignup-fnxp.onrender.com/profile", {
         number, dateOfBirth, gender, age
       });
       setNumber('');
